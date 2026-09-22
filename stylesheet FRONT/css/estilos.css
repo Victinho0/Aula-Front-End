@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: darksalmon;
+}
+@font-face {
+    font-family:regular;
+    src: url(fonte/regular.ttf);
+}
+@font-face {
+    font-family:'bold';
+    src: url(fonte/bold.ttf);
+}
+
+.titulo{
+    font-family:regular;
+    font-size: 2.4rem;
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 6px;
+    letter-spacing: 5px;
+    border: 16px solid firebrick;
+    box-shadow: 6px 4px 0 firebrick;
+    border-radius: 12px;
+    width: 38%;
+    margin: 30px auto;
+}
+
+.menu{
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.item{
+    color: black;
+    font-family:'bold';
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.3s; /* Deixa a mudança suave*/
+}
+
+.item:houver {
+    background-color: salmon;
+    color: white;
+}
